@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components'
 import classList from './classes'
+import NavBar from './NavBar'
 
 const App = () => {
   const [classes, setClasses] = useState([])
@@ -11,6 +12,7 @@ const App = () => {
 
   return (
     <Wrapper>
+      <NavBar />
       <h1>Hello, Rookie Cookie!</h1>
       <h2>Check out the classes you could take to learn all the skills</h2>
       {classes.map(klass => <ClassCard content={klass}/>)}
@@ -31,6 +33,8 @@ const ClassCard = ({content}) => (
 )
 
 const Wrapper = styled.div `
+  margin-top: 45px;
+  text-align: center;
 `
 
 const ClassCardWrapper = styled.div`
