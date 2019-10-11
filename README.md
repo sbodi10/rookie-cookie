@@ -7,7 +7,7 @@ To complete the task, clone (not fork) the repository, do your work as you norma
 
 Don't worry about real persistence, this is all client side stuff. Use your best judgement, use whatever tools or NPM packages you need, and implement things in the way that makes the most sense to you.
 
-If you have any questions, don't hesitate to ask! Keep it simple, I don't expect this to take up an unreasonable amount of time!
+If you have any questions, don't hesitate to ask! Keep it simple, this is not expected to take up an unreasonable amount of time!
 
 ### Bugs to Fix
 1. Images on the class cards don't all seem to work as expected. Some cards have them, some don't!
@@ -26,6 +26,7 @@ Think of another cool feature to add? Want to play with the design? Feel free to
 ##
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This code challenge was modeled after Scott Reynold's [RecipeBoss App](https://github.com/scottcreynolds/recipeboss)
 
 ## Available Scripts
 
