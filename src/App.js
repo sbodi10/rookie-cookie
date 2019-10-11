@@ -13,8 +13,7 @@ const App = () => {
   return (
     <Wrapper>
       <NavBar />
-      <h1>Hello, Rookie Cookie!</h1>
-      <h2>Check out the classes you could take to learn all the skills</h2>
+      <h1>Welcome to RookieCookie!</h1>
       {classes.map(klass => <ClassCard content={klass}/>)}
     </Wrapper>
   )
