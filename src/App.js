@@ -25,6 +25,7 @@ const ClassCard = ({content}) => (
     <img height="50%" width="100%" src={content.featureImage} alt='' />
     <h4>{content.title}</h4>
     <h5>{content.instructor}</h5>
+    <h5>{content.description}</h5>
     <h5>{content.duration} min</h5>
   </ClassCardWrapper>
 )
@@ -37,4 +38,5 @@ const ClassCardWrapper = styled.div`
   width: 175px;
   border-radius: 5px;
   border: solid 1px black;
+  overflow: hidden;
 `
