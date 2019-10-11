@@ -26,7 +26,8 @@ Think of another cool feature to add? Want to play with the design? Feel free to
 ##
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-This code challenge was modeled after Scott Reynold's [RecipeBoss App](https://github.com/scottcreynolds/recipeboss)
+
+This code challenge was modeled after Scott Reynold's [RecipeBoss App](https://github.com/scottcreynolds/recipeboss).
 
 ## Available Scripts
 
