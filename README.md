@@ -16,14 +16,14 @@ If you have any questions, don't hesitate to ask! Keep it simple, I don't expect
 4. Clear the error that is coming up in the console. 
 
 ### Features
-1. Add a way for a user to create new recipes and add them to the list.
-2. Add a way for a user to delete a recipe they no longer want to track.
-3. Using your favorite image api, give the user the ability to search for an image for their recipe. Don't have a favorite? Check out Unsplash, Pixabay, Bing, Giphy, or good ol' Google.
+1. Add a way for a user to create new classes and add them to the list.
+2. Add a way for a user to cancel/delete a class.
+3. Using your favorite image api, give the user the ability to search for an image for their class. Don't have a favorite? Check out Unsplash, Pixabay, Bing, Giphy, or good ol' Google.
 
 ### Bonus
 Think of another cool feature to add? Want to play with the design? Feel free to play and show off! No pressure though!
 
-
+##
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
