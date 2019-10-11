@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import styled from 'styled-components'
+import classList from './classes'
 
-function App() {
+const App = () => {
+  const [classes, setClasses] = useState([])
+
+  useEffect(() => {
+    setClasses(classList)
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Wrapper>
+      <h1>Hello, Rookie Cookie!</h1>
+      <h2>Check out the classes you could take to learn all the skills</h2>
+      {classes.map(klass => <ClassCard content={klass}/>)}
+    </Wrapper>
+  )
 }
 
-export default App;
+export default App
+
+const ClassCard = ({content}) => (
+  <ClassCardWrapper>
+    <img height="50%" width="100%" src={content.featureImage} alt='' />
+    <h4>{content.title}</h4>
+    <h5>{content.instructor}</h5>
+    <h5>{content.duration} min</h5>
+  </ClassCardWrapper>
+)
+
+const Wrapper = styled.div `
+`
+
+const ClassCardWrapper = styled.div`
+  height: 300px;
+  width: 175px;
+  border-radius: 5px;
+  border: solid 1px black;
+`
