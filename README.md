@@ -13,6 +13,7 @@ If you have any questions, don't hesitate to ask! Keep it simple, I don't expect
 1. Images on the class cards don't all seem to work as expected. Some cards have them, some don't!
 2. Some class cards seem to cut off the text.
 3. Class cards should be in an evenly-distributed grid below the nav, but they are currently in a single column with no spacing!
+4. Clear the error that is coming up in the console. 
 
 ### Features
 1. Add a way for a user to create new recipes and add them to the list.
