@@ -1,3 +1,29 @@
+## RookieCookie
+This is a test app for technical code challenges.
+
+RookieCookie is a Class Management system that allows editors to create and edit classes and easily look them up. The app has a few bugs and a few incomplete features, and your job is to get it all in proper working order.
+
+To complete the task, clone (not fork) the repository, do your work as you normally would, and create a new repository in your Github account. Send the link to the repo when you're done.
+
+Don't worry about real persistence, this is all client side stuff. Use your best judgement, use whatever tools or NPM packages you need, and implement things in the way that makes the most sense to you.
+
+If you have any questions, don't hesitate to ask! Keep it simple, I don't expect this to take up an unreasonable amount of time!
+
+### Bugs to Fix
+1. Images on the class cards don't all seem to work as expected. Some cards have them, some don't!
+2. Some class cards seem to cut off the text.
+3. Class cards should be in an evenly-distributed grid below the nav, but they are currently in a single column with no spacing!
+
+### Features
+1. Add a way for a user to create new recipes and add them to the list.
+2. Add a way for a user to delete a recipe they no longer want to track.
+3. Using your favorite image api, give the user the ability to search for an image for their recipe. Don't have a favorite? Check out Unsplash, Pixabay, Bing, Giphy, or good ol' Google.
+
+### Bonus
+Think of another cool feature to add? Want to play with the design? Feel free to play and show off! No pressure though!
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -26,43 +52,3 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
