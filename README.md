@@ -3,7 +3,7 @@ This is a test app for technical code challenges.
 
 RookieCookie is a Class Management system that allows editors to create and edit classes and easily look them up. The app has a few bugs and a few incomplete features, and your job is to get it all in proper working order.
 
-To complete the task, clone (not fork) the repository, do your work as you normally would, and create a new repository in your Github account. Send the link to the repo to Rajesh at [rajesh_mahajan@discovery.com](rajesh_mahajan@discovery.com) when you're done.
+To complete the task, clone (not fork) the repository, do your work as you normally would, and create a new repository in your Github account.
 
 Don't worry about real persistence, this is all client side stuff. Use your best judgement, use whatever tools or NPM packages you need, and implement things in the way that makes the most sense to you.
 
