@@ -37,7 +37,6 @@ const Wrapper = styled.div `
 `
 
 const ClassCardWrapper = styled.div`
-  height: 300px;
   width: 175px;
   border-radius: 5px;
   border: solid 1px black;
