@@ -23,7 +23,7 @@ export default App
 
 const ClassCard = ({content}) => (
   <ClassCardWrapper>
-    <img height="50%" width="100%" src={content.featureImage} alt='' />
+    <img height="50%" width="100%" src={content.featuredImageUrl} alt='' />
     <h4>{content.title}</h4>
     <h5>{content.instructor}</h5>
     <h5>{content.description}</h5>
