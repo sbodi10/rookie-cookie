@@ -14,7 +14,9 @@ const App = () => {
     <Wrapper>
       <NavBar />
       <h1>Welcome to RookieCookie!</h1>
-      {classes.map(klass => <ClassCard content={klass}/>)}
+      <ClassGrid>
+        {classes.map(klass => <ClassCard key={klass.id} content={klass}/>)}
+      </ClassGrid>
     </Wrapper>
   )
 }
@@ -41,4 +43,12 @@ const ClassCardWrapper = styled.div`
   border-radius: 5px;
   border: solid 1px black;
   overflow: hidden;
+  margin: 25px;
 `
+
+const ClassGrid = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+`;
