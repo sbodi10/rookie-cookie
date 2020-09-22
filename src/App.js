@@ -15,7 +15,7 @@ const App = () => {
       <NavBar />
       <h1>Welcome to RookieCookie!</h1>
       <ClassGrid>
-        {classes.map(klass => <ClassCard key={klass.id} content={klass}/>)}
+        {classes.map(klass => <ClassCard key={`${klass.id}-${klass.title}`} content={klass}/>)}
       </ClassGrid>
     </Wrapper>
   )
