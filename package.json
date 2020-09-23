@@ -6,7 +6,8 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
-    "styled-components": "^4.4.0"
+    "styled-components": "^4.4.0",
+    "styled-react-modal": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
